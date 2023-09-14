@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/display_image/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/display_image/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/display_image/build" />
+      <excludeFolder url="file://$MODULE_DIR$/stepper_widget/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/stepper_widget/build" />
+      <excludeFolder url="file://$MODULE_DIR$/stepper_widget/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/tabbar/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/tabbar/build" />
+      <excludeFolder url="file://$MODULE_DIR$/tabbar/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/navigation_drawer/build" />
+      <excludeFolder url="file://$MODULE_DIR$/navigation_drawer/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/navigation_drawer/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dismissible/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dismissible/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/dismissible/build" />
+      <excludeFolder url="file://$MODULE_DIR$/animated_dialog/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/animated_dialog/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/animated_dialog/build" />
+      <excludeFolder url="file://$MODULE_DIR$/date_picker/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/date_picker/build" />
+      <excludeFolder url="file://$MODULE_DIR$/date_picker/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/time_picker/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/time_picker/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/time_picker/build" />
+      <excludeFolder url="file://$MODULE_DIR$/dropdown_button/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dropdown_button/build" />
+      <excludeFolder url="file://$MODULE_DIR$/dropdown_button/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/photo_picker/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/photo_picker/build" />
+      <excludeFolder url="file://$MODULE_DIR$/photo_picker/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bottom_sheet/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bottom_sheet/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bottom_sheet/build" />
+      <excludeFolder url="file://$MODULE_DIR$/instagram_bottom_navigation_bar/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/instagram_bottom_navigation_bar/build" />
+      <excludeFolder url="file://$MODULE_DIR$/instagram_bottom_navigation_bar/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/list_view/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/list_view/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/list_view/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
