@@ -33,65 +33,101 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text("FlutterGuys"),
+        title: Text("Flutter Guys"),
       ),
-      body: listViewEx6(),
+      body: Column(
+        children: [
+          Expanded(child: stories(),),
+          Expanded(child: feedWithBuilder(), flex: 4,),
+        ],
+      ),
     );
   }
 
-  Widget listViewEx1(){
+  Widget feed(){
     return Center(
       child: ListView(
         padding: const EdgeInsets.all(8),
         children: <Widget>[
-          Container(
-            height: 50,
-            color: Colors.green[600],
-            child: const Center(child: Text('First container')),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 150,
+              color: Colors.green[600],
+              child: const Center(child: Text('First container')),
+            ),
           ),
-          Container(
-            height: 50,
-            color: Colors.green[500],
-            child: const Center(child: Text('Second container')),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 150,
+              color: Colors.green[500],
+              child: const Center(child: Text('Second container')),
+            ),
           ),
-          Container(
-            height: 50,
-            color: Colors.green[100],
-            child: const Center(child: Text('Third container')),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 150,
+              color: Colors.green[100],
+              child: const Center(child: Text('Third container')),
+            ),
           ),
         ],
       ),
     );
   }
 
-  Widget listViewEx2(){
-    return Center(
+  Widget stories(){
+    return SizedBox(
+      height: 150,
       child: ListView(
         padding: const EdgeInsets.all(8),
         scrollDirection: Axis.horizontal,
         children: <Widget>[
-          Container(
-            height: 50,
-            color: Colors.grey[600],
-            child: const Center(child: Text('First container')),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              width: 120,
+              decoration: BoxDecoration(
+                color: Colors.grey[600],
+                borderRadius: BorderRadius.circular(100)
+              ),
+              child: const Center(child: Icon(Icons.person,size: 40,)),
+            ),
           ),
-          const SizedBox(width: 5,), // space between each container
-          Container(
-            height: 50,
-            color: Colors.green[500],
-            child: const Center(child: Text('Second container')),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              width: 120,
+              decoration: BoxDecoration(
+                  color: Colors.green[500],
+                  borderRadius: BorderRadius.circular(100)
+              ),
+              child: const Center(child: Icon(Icons.car_crash,size: 40,)),
+            ),
           ),
-          const SizedBox(width: 5,), // space between each container
-          Container(
-            height: 50,
-            color: Colors.grey[300],
-            child: const Center(child: Text('Third container')),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              width: 120,
+              decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.circular(100)
+              ),
+              child: const Center(child: Icon(Icons.home,size: 40,)),
+            ),
           ),
-          const SizedBox(width: 5,), // space between each container
-          Container(
-            height: 50,
-            color: Colors.green[100],
-            child: const Center(child: Text('Four container')),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              width: 120,
+              decoration: BoxDecoration(
+                  color: Colors.green[100],
+                  borderRadius: BorderRadius.circular(100)
+              ),
+              child: const Center(child: Icon(Icons.girl,size: 40,)),
+            ),
           ),
         ],
       ),
@@ -166,33 +202,43 @@ class _HomeState extends State<Home> {
     );
   }
 
-  Widget listViewEx5(){
+  Widget feedWithBuilder(){
     List items = ["One","Two","Three","Four","Five","Six","Seven","Height","Nine","Ten"];
 
     return Center(
       child: ListView.builder(
         itemCount: items.length,
         itemBuilder: (_, index) {
-          return ListTile(
-            title: Text(items[index]),
+          return Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 150,
+              color: Colors.green[500],
+              child: Center(child: Text(items[index])),
+            ),
           );
         },
       ),
     );
   }
 
-  Widget listViewEx6(){
+  Widget feedWithElevator(){
     List items = ["One","Two","Three","Four","Five","Six","Seven","Height","Nine","Ten"];
 
     return Center(
       child: ListView.separated(
         itemCount: items.length,
         itemBuilder: (_, index) {
-          return ListTile(
-            title: Text(items[index]),
+          return Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 150,
+              color: Colors.green[500],
+              child: Center(child: Text(items[index])),
+            ),
           );
         },
-        separatorBuilder: (_,index)=> Divider(),
+        separatorBuilder: (_,index)=> Icon(Icons.arrow_drop_down,),
       ),
     );
   }
