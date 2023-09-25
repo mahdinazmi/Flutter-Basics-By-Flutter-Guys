@@ -42,6 +42,9 @@
       <excludeFolder url="file://$MODULE_DIR$/list_view/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/list_view/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/list_view/build" />
+      <excludeFolder url="file://$MODULE_DIR$/dependency_inject/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dependency_inject/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/dependency_inject/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
